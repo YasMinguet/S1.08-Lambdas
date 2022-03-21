@@ -1,7 +1,9 @@
 package fase2;
 
 @FunctionalInterface
-public interface getPiValue {
+public interface interfazFuncional {
 	public double getPiValue();
+		
+	
 
 }

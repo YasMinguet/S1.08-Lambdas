@@ -3,10 +3,9 @@ package fase2;
 public class App {
 
 	public static void main(String[] args) {
+		interfazFuncional iF = () -> 3.1415;
 
-		Operation o1 = new Operation();
-		System.out.println(o1.getPiValue());
+		System.out.println(iF.getPiValue());
 
 	}
-
 }

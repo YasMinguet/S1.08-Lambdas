@@ -1,7 +1,7 @@
 package fase3;
 
 @FunctionalInterface
-public interface Reverse {
+public interface interfazFuncional {
 	public String reverse(String str);
 
 }
